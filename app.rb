@@ -18,3 +18,10 @@ end
 album_repository.all.each do |album|
   p album
 end
+
+
+# get the album with id 2
+album = album_repository.find(1)
+
+p album.id
+p album.title
